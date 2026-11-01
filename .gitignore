@@ -1,0 +1,22 @@
+# ROM・セーブ（著作物・個人データなので絶対に入れない）
+*.gba
+*.sav
+*.ss[0-9]
+*.srm
+*.ips
+*.bps
+*.ups
+base/
+work/
+
+# ROM から抽出したデータ（ゲーム中の文章を含むので公開しない。tools/dump_items.py で再生成できる）
+data/
+
+# ビルド生成物（python3 tools/patch_bikes.py で再生成できる）
+build/
+__pycache__/
+
+# 外部リポジトリ（README の手順で取得する）
+ref/
+
+.DS_Store
